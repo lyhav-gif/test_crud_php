@@ -34,7 +34,7 @@ foreach ($students as $studentID => $studentDetails) {
     echo "==========================<br>";
 }
 
-$sentence = "Goat is Messi";
+$sentence = "PHP is fun!";
 $words = explode(" ", $sentence);
 $reversed = array_reverse($words);
 echo  implode(" ", $reversed);//Output: fun! is php
